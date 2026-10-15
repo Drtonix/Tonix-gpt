@@ -1,0 +1,20 @@
+[project]
+name = "tonix-gpt"
+version = "0.1.0"
+description = "Локальные чат-боты: Qwen, huihui, Gemma, gpt-oss — с интернетом, картинками и рисованием"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pyside6>=6.11",
+    "mlx-lm",
+    "mlx-vlm",
+    "mflux",
+    "huggingface-hub",
+    "trafilatura",
+    "pillow",
+    "truststore>=0.10.4",
+    "certifi>=2026.7.22",
+    "markdown>=3.11",
+]
+
+[tool.uv]
+package = false
